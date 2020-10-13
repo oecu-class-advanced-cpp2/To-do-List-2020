@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -82,3 +83,5 @@ input[type=button]:active {
     float: right;
     padding-right: 10px;
 }
+
+body { font-family: 'Noto Sans JP', sans-serif; }
