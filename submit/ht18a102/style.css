@@ -4,11 +4,13 @@
 }
 
 h1 {
+
     background-color: #4FC3F7;
     color: #fff;
     height: 100px;
     line-height: 100px;
 }
+h1 { text-align: center; }
 
 label {
     display: inline-block;
