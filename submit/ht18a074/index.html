@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./style.css">
+  <script src="main.js" type="module"></script>
+  <title>To-do List</title>
+</head>
+
+<body>
+  <h1>To-do List</h1>
+
+  <div class="todo">
+    <div class="todo-input">
+      <input type="text" class="input-text" onkeydown="addTodo()" id="todo_value" placeholder="Type a to-do here!"
+        autofocus />
+      <input type="button" value="Add to-do" onclick="addTodo(true)" />
+      <input type="button" value="Delete selected items" onclick="deleteSelected()" />
+    </div>
+
+    <ul id="todo_ul" class="todo-list"></ul>
+
+  </div>
+</body>
+
+</html>
