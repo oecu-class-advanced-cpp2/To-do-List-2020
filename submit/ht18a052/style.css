@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #4FC3F7;
+    color: #fff;
+    height: 100px;
+    line-height: 100px;
+}
+
+label {
+    display: inline-block;
+    width: calc(100% - 20px);
+    background-color: #fff;
+    line-height: 40px;
+}
+
+label:hover {
+    background-color: #E1F5FE;
+}
+
+input[type=checkbox] {
+    margin: 0 10px;
+}
+
+a {
+    color: #4FC3F7;
+}
+
+.todo-input {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.todo-list {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.todo-item {
+    margin: 5px 0;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+.input-text {
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px #4FC3F7;
+    padding: 0 10px;
+}
+
+input[type=button] {
+    /* margin: 10px 0; */
+    font-weight: bold;
+    border-radius: 5px;
+    height: 30px;
+    padding: 0 10px;
+    background-color: #fff;
+    border: solid 1px #4FC3F7;
+    color: #4FC3F7;
+}
+
+input[type=button]:hover {
+    background-color: #4FC3F7;
+    border: solid 1px #fff;
+    color: #fff;
+}
+
+input[type=button]:active {
+    background-color: #0995D1;
+    color: #fff;
+}
+
+.del-button {
+    float: right;
+    padding-right: 10px;
+}
